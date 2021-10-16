@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1C222C;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+
+.experience,
+.works,
+.contact {
+    padding: 100px 0;
+}
+
+.about span,
+.about a,
+.work span,
+.contact-text span {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+
+
+/* MAIN END */
+
+/* NAVBAR */
+
+nav {
+    z-index: 1;
+}
+
+.navbar-brand,
+ul.navbar-nav li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+ul.navbar-nav li {
+    margin: 0 15px;
+}
+
+/* NAVBAR END*/
+
+/* HEADER */
+
+.designer {
+    width: 6em;
+    height: 6em;
+    background-color: #52ADBD;
+    top: 9em;
+    left: 17em;
+}
+
+.web-dev {
+    width: 9.5em;
+    height: 9.5em;
+    background-color: #6773CD;
+    bottom: 4em;
+    right: 18em;
+    z-index: 1;
+}
+
+.designer span {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+    transform: rotate(-17.52deg);
+}
+
+.web-dev span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    transform: rotate(-8.34deg);
+}
+
+.header {
+    background-color: #1D2533;
+}
+
+.name {
+    font-size: 64px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.about {
+    width: 38%;
+}
+
+.about h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+
+.about p {
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 100px;
+}
+
+/* HEADER END*/
+
+/* EXPERIENCE SECTION */
+
+.skill-experience {
+    margin-bottom: 20px;
+}
+
+.skill-experience h2 {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 150%;
+}
+
+.skill-experience h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #52ADBD;
+}
+
+.skill-experience span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.about-me h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.about-me p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.card-projects {
+    background-color: #29303E;
+    width: 32.5%;
+    border-radius: 0;
+    padding: 13% 6%;
+    padding-bottom: 5%;
+}
+
+.card-projects:nth-child(2) {
+    background-color: #6773CD;
+}
+
+.card-projects h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.card-projects small {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #CECECE;
+
+}
+
+.card-projects img {
+    width: 20%;
+    margin-bottom: 24fpx;
+}
+
+.experience row:nth-child(2) {
+    padding: 15px;
+}
+
+/* EXPERIENCE SECTION END*/
+
+/* WORKS SECTION */
+
+.design {
+    width: 13em;
+    height: 13em;
+    background-color: #52ADBD;
+    top: 19em;
+    left: 15em;
+}
+
+.development {
+    width: 13em;
+    height: 13em;
+    background-color: #6773CD;
+    bottom: 2em;
+    right: 16em;
+}
+
+.design span {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    transform: rotate(-17.52deg);
+
+}
+
+.development span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    transform: rotate(-8.34deg);
+}
+
+.month,
+.year {
+    width: 4em;
+    height: 4em;
+    text-align: center;
+}
+
+.month span,
+.year span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.month {
+    background-color: #D8CAC7;
+
+}
+
+.year {
+    background-color: #68858E;
+    margin-left: -1em;
+}
+
+.works {
+    background-color: #1D2533;
+}
+
+.works .container .row {
+    padding: 50px 0;
+}
+
+.work h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+
+.work p {
+    font-size: 18px;
+    line-height: 150%;
+}
+
+/* WORKS SECTION END */
+
+/* CONTACT SECTION */
+
+.contact-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.contact-text p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.contact-text span {
+    text-decoration: none;
+}
+
+.contact-text p a {
+    color: #52ADBD;
+}
+
+.btn-send {
+    background-color: #6773CD;
+    border-color: #6773CD;
+}
+
+/* CONTACT SECTION END */
+
+/* FOOTER */
+
+footer {
+    padding: 50px 0;
+}
+
+/* FOOTER END */
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {
+
+    /* MAIN */
+
+    .navbar {
+        position: relative !important;
+    }
+
+    .experience,
+    .works,
+    .contact {
+        padding: 50px 0;
+    }
+
+
+    /* MAIN END */
+
+    /* NAVBAR */
+
+    .navbar-brand,
+    ul.navbar-nav li {
+        font-size: 14px;
+    }
+
+
+    /* NAVBAR END*/
+
+    /* HEADER */
+
+    .avatar {
+        width: 100%;
+    }
+
+    .text-header {
+        position: relative !important;
+    }
+
+    .name {
+        font-size: 24px;
+        position: relative !important;
+        margin: 0.5em 0;
+        width: 100%;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about h4 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+
+
+    .about p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+
+    /* HEADER END */
+
+    /* EXPERIENCE SECTION */
+
+    .skill-experience h2 {
+        font-size: 24px;
+    }
+
+    .skill-experience h4 {
+        font-size: 18px;
+    }
+
+    .skill-experience span {
+        font-size: 14px;
+    }
+
+    .about-me h4 {
+        font-size: 18px;
+    }
+
+    .about-me p {
+        font-size: 14px;
+    }
+
+    .card-projects {
+        width: 100%;
+        padding: 20% 15%;
+        padding-top: 25%;
+        margin-bottom: 20px;
+    }
+
+
+    .card-projects h4 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        margin-bottom: 20px;
+    }
+
+    .card-projects small {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #CECECE;
+
+    }
+
+    .card-projects img {
+        width: 20%;
+        margin-bottom: 24fpx;
+    }
+
+
+
+    /* EXPERIENCE SECTION END*/
+
+    /* WORKS SECTION */
+
+    .works .container .row {
+        padding: 10px 0;
+    }
+
+
+    .work h4 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+
+
+    .work p {
+        font-size: 14px;
+    }
+
+    /* WORKS SECTION END */
+
+    /* CONTACT SECTION */
+
+    .contact-text h2 {
+        font-size: 20px;
+    }
+
+    .contact-text p {
+        font-size: 14px;
+    }
+
+    .contact-text p a {
+        color: #52ADBD;
+    }
+
+
+    .btn-send {
+        background-color: #6773CD;
+        border-color: #6773CD;
+    }
+
+    /* CONTACT SECTION END */
+
+
+    /* FOOTER */
+
+    footer .row {
+        width: 100% !important;
+    }
+
+    /* FOOTER END */
+
+}
+
+@media (max-width: 1399.98px) {
+    .container {
+        padding: 0 2em;
+    }
+}
